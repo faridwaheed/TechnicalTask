@@ -18,13 +18,7 @@
                 controllerAs: 'vm',
                 data: { activeTab: 'home' }
             })
-            .state('users', {
-                url: '/',
-                templateUrl: 'users/index.html',
-                controller: 'Users.IndexController',
-                controllerAs: 'vm',
-                data: { activeTab: 'users' }
-            })
+         
             .state('account', {
                 url: '/account',
                 templateUrl: 'account/index.html',
